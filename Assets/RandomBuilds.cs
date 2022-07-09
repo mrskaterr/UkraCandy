@@ -5,15 +5,21 @@ using UnityEngine;
 public class RandomBuilds : MonoBehaviour
 {
     int rnd;
-    [SerializeField]  List<Material> material;
+    [SerializeField] List<GameObject> Builds;
+    public static GameObject NextBuilding;
+    public List<int> queue;
+    GameObject buff;
     void Start()
     {
-        for(int i=0;i<transform.childCount;i++)
+        for(int i=transform.childCount-1;i>=0;i--)
         {
-            rnd=Random.Range(0,4);
-            transform.GetChild(i).GetComponent<MeshRenderer>().material=material[rnd];
-            Debug.Log(material[rnd]);
+            rnd=Random.Range(0,Builds.Count);
+            buff=Instantiate(Builds[rnd]);
+            queue.Add(rnd);
+            buff.transform.SetParent(transform.GetChild(i));
+            buff.transform.localPosition = new Vector3(0, 0, 0);
         }
+        NextBuilding=Builds[queue[0]];
     }
 
     void Update()
@@ -25,12 +31,21 @@ public class RandomBuilds : MonoBehaviour
     }
     void deleteAndRandom()
     {
-        
+        NextBuilding=Builds[queue[0]];
+        queue.RemoveAt(0);
+        Destroy(transform.GetChild(transform.childCount-1).GetChild(0).gameObject);
         for(int i=transform.childCount-1;i>=1;i--)
         {
-            transform.GetChild(i).GetComponent<MeshRenderer>().material= transform.GetChild(i-1).GetComponent<MeshRenderer>().material;
+            buff=transform.GetChild(i-1).GetChild(0).gameObject;
+            buff.transform.SetParent(transform.GetChild(i));
+            buff.transform.localPosition = new Vector3(0, 0, 0);            
         }
-        transform.GetChild(0).GetComponent<MeshRenderer>().material=material[Random.Range(0,4)];
+        rnd=Random.Range(0,Builds.Count);
+        buff=Instantiate(Builds[rnd]);
+        queue.Add(rnd);
+        buff.transform.SetParent(transform.GetChild(0));
+        buff.transform.localPosition = new Vector3(0, 0, 0);            
+        
     }
 
     

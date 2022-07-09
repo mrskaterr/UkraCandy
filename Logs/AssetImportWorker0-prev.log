@@ -1,0 +1,233 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.30f1 (1fb1bf06830e) revision 2077119'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'pl' Physical Memory: 16342 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+G:\Programy\Unity\2020.3.30f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+G:/Programy/Unity/projekty/UkraCandy
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62365
+Successfully changed project path to: G:/Programy/Unity/projekty/UkraCandy
+G:/Programy/Unity/projekty/UkraCandy
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 43.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path G:/Programy/Unity/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path G:/Programy/Unity/projekty/UkraCandy/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   
+    VRAM:     8079 MB
+    Driver:   30.0.15.1259
+Initialize mono
+Mono path[0] = 'G:/Programy/Unity/2020.3.30f1/Editor/Data/Managed'
+Mono path[1] = 'G:/Programy/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'G:/Programy/Unity/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56068
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: G:/Programy/Unity/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000933 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.490 seconds
+Domain Reload Profiling:
+	ReloadAssembly (490ms)
+		BeginReloadAssembly (49ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (386ms)
+			LoadAssemblies (49ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (126ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (156ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (45ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (71ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002307 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.075 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1076ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (905ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (287ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (58ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (194ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2973 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.4 MB.
+System memory in use after: 134.6 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3411.
+Total: 2.892000 ms (FindLiveObjects: 0.211000 ms CreateObjectMapping: 0.143200 ms MarkObjects: 2.465500 ms  DeleteObjects: 0.071600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/3D/Textures/Church/budynek_2_top_01 - Default_Normal.tga
+  artifactKey: Guid(4797c9b18cfcbfa45918944da64e4488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_top_01 - Default_Normal.tga using Guid(4797c9b18cfcbfa45918944da64e4488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a7e87be8ef90c6d605a4969263eda0') in 0.059888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/3D/Textures/Church/budynek_2_mid_01 - Default_BaseMap.tga
+  artifactKey: Guid(20a90b6a28d0c294bbabff409ef4e80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_mid_01 - Default_BaseMap.tga using Guid(20a90b6a28d0c294bbabff409ef4e80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4323dbb1f21195641ead13bc436cec') in 0.012772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/3D/Textures/Church/budynek_2_bot_01 - Default_AlbedoTransparency.tga
+  artifactKey: Guid(e192c6291cd106f48befd83888b22faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_bot_01 - Default_AlbedoTransparency.tga using Guid(e192c6291cd106f48befd83888b22faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66b18db2e4284b6ec7c330679c2673f') in 0.013615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/3D/Textures/Church/budynek_2_bot_01 - Default_Normal.tga
+  artifactKey: Guid(6aad45e23478c654fa1e56770c646fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_bot_01 - Default_Normal.tga using Guid(6aad45e23478c654fa1e56770c646fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e10e6c44bdd92f33b6e76117945e66') in 0.011496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/3D/Textures/Church/budynek_2_mid_01 - Default_Normal.tga
+  artifactKey: Guid(233a9b49f0d0d994babd72368d031881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_mid_01 - Default_Normal.tga using Guid(233a9b49f0d0d994babd72368d031881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b6975b31e628fe87b65310695e25319') in 0.010580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/3D/Textures/Church/budynek_2_bot_01 - Default_MetallicSmoothness.tga
+  artifactKey: Guid(c111dfe1ad68a4f489307c5244c543e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_bot_01 - Default_MetallicSmoothness.tga using Guid(c111dfe1ad68a4f489307c5244c543e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8456a5f6576ed12e2505b7248bb87326') in 0.012299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/3D/Textures/Church/budynek_2_top_01 - Default_MetallicSmoothness.tga
+  artifactKey: Guid(cd5ce038a08684a4e803ed6ff769a32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_top_01 - Default_MetallicSmoothness.tga using Guid(cd5ce038a08684a4e803ed6ff769a32f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fe303751cefd69980a283995465b284') in 0.011718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/3D/Textures/Church/budynek_2_top_01 - Default_AlbedoTransparency.tga
+  artifactKey: Guid(b91566f28940e6d459069ea66daa453c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_top_01 - Default_AlbedoTransparency.tga using Guid(b91566f28940e6d459069ea66daa453c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54e5874e6dcd9570917fc8dab8372eb2') in 0.010978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/3D/Textures/Church/budynek_2_mid_01 - Default_MaskMap.tga
+  artifactKey: Guid(e773c8808bd5c66448131ccf4d8bea09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_mid_01 - Default_MaskMap.tga using Guid(e773c8808bd5c66448131ccf4d8bea09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195ea80a3d1c5c8c92ee6358fcde832e') in 0.013079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 215.090326 seconds.
+  path: Assets/Prefabs/Church.prefab
+  artifactKey: Guid(db4675347cf71fa4a87b3db12f4c0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Church.prefab using Guid(db4675347cf71fa4a87b3db12f4c0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e3c7d69ec115cf99abd25b76278e116') in 0.177063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.877534 seconds.
+  path: Assets/Prefabs/Church.prefab
+  artifactKey: Guid(db4675347cf71fa4a87b3db12f4c0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Church.prefab using Guid(db4675347cf71fa4a87b3db12f4c0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '308770039e499e685e1a34545be7d6e1') in 0.012541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.273887 seconds.
+  path: Assets/Prefabs/Church.prefab
+  artifactKey: Guid(db4675347cf71fa4a87b3db12f4c0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Church.prefab using Guid(db4675347cf71fa4a87b3db12f4c0fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3296997ad8648cdc98c1fb0f1c70e8') in 0.012698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.298063 seconds.
+  path: Assets/3D/Models/Church/budynek_2_bot.fbx
+  artifactKey: Guid(28b0de9169091e343b2ffd024233b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Models/Church/budynek_2_bot.fbx using Guid(28b0de9169091e343b2ffd024233b26c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83867aee951e448dc9a288aa46cc5b8') in 0.109142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/3D/Models/Church/budynek_2_mid.fbx
+  artifactKey: Guid(4442decd1a16b0948982f9b6bb5be9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Models/Church/budynek_2_mid.fbx using Guid(4442decd1a16b0948982f9b6bb5be9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6835af977ec6d66de7c2617daf41bfaf') in 0.039628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/3D/Models/Church/budynek_2_top.fbx
+  artifactKey: Guid(7a524c5049a3624428fe5ce847fb6249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Models/Church/budynek_2_top.fbx using Guid(7a524c5049a3624428fe5ce847fb6249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb5c9d54075602aa30327bef29a9f88') in 0.043775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.291733 seconds.
+  path: Assets/3D/Textures/Church/budynek_2_bot_01 - Default_Normal.tga
+  artifactKey: Guid(6aad45e23478c654fa1e56770c646fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_bot_01 - Default_Normal.tga using Guid(6aad45e23478c654fa1e56770c646fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dad11fdbea023e8dc0a38ebc6e78e5b') in 0.014540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.199432 seconds.
+  path: Assets/3D/Textures/Church/budynek_2_top_01 - Default_Normal.tga
+  artifactKey: Guid(4797c9b18cfcbfa45918944da64e4488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D/Textures/Church/budynek_2_top_01 - Default_Normal.tga using Guid(4797c9b18cfcbfa45918944da64e4488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba09d0fafabd53bd025314efe43de537') in 0.012454 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
